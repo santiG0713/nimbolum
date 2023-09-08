@@ -1,0 +1,139 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.bg-imagen{
+    background-image: url(imagenes/fondouno.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-imagenuno{
+    background-color: #35155D;
+    margin-top: 100px;
+    transition-duration: 2s;
+    opacity: 0;
+}
+
+.box-content{
+    opacity: 0;
+    transition-duration: 2s;
+    margin-left: 100px;
+}
+
+.box-imguno{
+    opacity: 1;
+    transition-duration: 2s;
+    margin-left: 0px;
+}
+
+.box-imgdos{
+    opacity: 1;
+    transition-duration: 2s;
+    margin-right: 0px;
+}
+
+.box-textouno{
+    opacity: 1;
+    transition-duration: 2s;
+    margin-left: 0px;
+}
+
+.box-textdos{
+    opacity: 1;
+    transition-duration: 2s;
+    margin-left: 0px;
+}
+
+.box-imagenes{
+    margin-top: 100px;
+    transition-duration: 0.1s;
+    opacity: 0;
+}
+
+.box-personajes{
+    transition-duration: 0.1s;
+    opacity: 0;
+}
+
+.box-enlancejuego{
+    margin-top: 200px;
+    transition-duration: 2s;
+    opacity: 0;
+}
+
+
+
+.bg-imagen-secciondos{
+    background-image: url(imagenes/fondodos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.bg-container-iamgentres{
+    background-image: url(imagenes/fondotres.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-colorpersonajes{
+    background-color: #008492;
+}
+
+
+.bg-colorayudantes{
+    background-color: #293462;
+}
+
+.bg-imagenseccioncuatro{
+    background-image: url(imagenes/fondocuatro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-color-botones{
+    background-color: #223A87;
+}
+
+.img-seccioncinco{
+    background-image: url(imagenes/seccioncinco.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-colorimgtrajeuno{
+    background-color: #293462;
+}
+
+.bg-imgtrajedos{
+    background-color: #008492;
+    
+}
+
+.bg-imgfooter{
+    background-image: url(imagenes/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#box-doctor{
+    padding-top: 300px;
+}
+
+
+
+@media screen and (max-width: 576px) { 
+   #box-doctor{
+   padding-bottom: 200px;
+   }
+
+
+}
+
+@media screen and (max-width: 1000px) { 
+    #box-doctor{
+    margin-bottom: 200px;
+ 
+ 
+ }
+}
