@@ -72,7 +72,7 @@ window.addEventListener("scroll", function(){
 window.addEventListener("scroll", function(){
     let poss = window.scrollY;
     
-    if(poss >=1200){
+    if(poss >=800){
         boxImagenes[0]. style.marginTop ="0px";
         boxImagenes[0].style.opacity= 1;
         boxImagenes[0].style.transitionDelay = "1.2s";
@@ -115,7 +115,7 @@ window.addEventListener("scroll", function(){
 window.addEventListener("scroll", function(){
     let poss = window.scrollY;
     
-    if(poss >=2200){
+    if(poss >=1900){
         
         boxPersonajes[0].style.opacity= 1;
         boxPersonajes[0].style.transitionDelay = "1.2s";
