@@ -10,7 +10,7 @@ html{
 }
 .bg-imagenuno{
     background-color: #35155D;
-    margin-top: 100px;
+    top: 100px;
     transition-duration: 2s;
     opacity: 0;
 }
@@ -27,6 +27,15 @@ html{
     margin-left: 0px;
 }
 
+.box-imguno:hover
+{
+    transform: scale(1.1);
+    transition: 0.4s;
+    translate: 0.4s;
+    
+
+}
+
 .box-imgdos{
     opacity: 1;
     transition-duration: 2s;
@@ -34,9 +43,9 @@ html{
 }
 
 .box-textouno{
-    opacity: 1;
+    opacity: 0;
     transition-duration: 2s;
-    margin-left: 0px;
+    left: -100px;
 }
 
 .box-textdos{
@@ -49,7 +58,11 @@ html{
     margin-top: 100px;
     transition-duration: 0.1s;
     opacity: 0;
+    
 }
+
+
+
 
 .box-personajes{
     transition-duration: 0.1s;
@@ -57,8 +70,8 @@ html{
 }
 
 .box-enlancejuego{
-    margin-top: 200px;
-    transition-duration: 2s;
+    margin-top: 100px;
+    transition-duration: 4s;
     opacity: 0;
 }
 
@@ -117,23 +130,27 @@ html{
     background-repeat: no-repeat;
 }
 #box-doctor{
-    padding-top: 300px;
+    margin-top: 300px;
 }
 
 
 
+@media screen and (max-width: 1195px) { 
+    #box-doctor {
+        margin-top: 0px !important;
+    }
+
+    
+}
 @media screen and (max-width: 576px) { 
    #box-doctor{
-   padding-bottom: 200px;
+   margin:0px;
+   }
+
+   #box-psicologa{
+    margin: 0px;
    }
 
 
-}
 
-@media screen and (max-width: 1000px) { 
-    #box-doctor{
-    margin-bottom: 200px;
- 
- 
- }
 }

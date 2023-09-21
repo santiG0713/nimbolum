@@ -13,18 +13,25 @@ const boxTrajes = document.querySelectorAll(".box-trajes")
 window.addEventListener("scroll", function(){
     console.log(window.scrollY);
     let pos = window.scrollY;
-    if(pos <=400){
+    if(pos <=700){
         boxContent.style.opacity= 1;
         boxContent.style.marginLeft="0px";
-        imgDoctor.style.marginTop = "0px";
+        imgDoctor.style.top = "0px";
         imgDoctor.style.opacity = 1;
     }else if( pos >= 40){
         boxContent.style.opacity= 0;
         boxContent.style.marginLeft="100px";
-        imgDoctor.style.marginTop = "100px";
+        imgDoctor.style.top = "100px";
         imgDoctor.style.opacity = 0;
     }
 })
+
+setTimeout(() => {
+        boxContent.style.opacity= 1;
+        boxContent.style.marginLeft="0px";
+        imgDoctor.style.marginTop = "0px";
+        imgDoctor.style.opacity = 1;
+  }, "1000");
 
 window.addEventListener("scroll", function(){
     let poss = window.scrollY;
@@ -47,10 +54,10 @@ window.addEventListener("scroll", function(){
 
     if(poss >=500){
         boxTextouno.style.opacity= 1;
-        boxTextouno.style.marginLeft="0px";
+        boxTextouno.style.left="0px";
     }else if( poss >= 400){
         boxTextouno.style.opacity= 0;
-        boxTextouno.style.marginLeft="100px";
+        boxTextouno.style.left="-100px";
     }
 
     if(poss >=500){
@@ -65,7 +72,7 @@ window.addEventListener("scroll", function(){
 window.addEventListener("scroll", function(){
     let poss = window.scrollY;
     
-    if(poss >=800){
+    if(poss >=1200){
         boxImagenes[0]. style.marginTop ="0px";
         boxImagenes[0].style.opacity= 1;
         boxImagenes[0].style.transitionDelay = "1.2s";
@@ -211,16 +218,16 @@ window.addEventListener("scroll", function(){
     }
 })
 
-/* window.addEventListener("scroll", function(){
+ window.addEventListener("scroll", function(){
     console.log(window.scrollY);
     let posss = window.scrollY;
-    if(posss <=4500){
-        boxEnlance.style.marginTop = "0px";
+    if(posss >=3578){
+        boxEnlance.style.marginTop = "100px";
         boxEnlance.style.opacity = 1;
-    }else if( posss >= 3003){
+    }else if( posss <= 3003){
         boxEnlance.style.marginTop = "200px";
         boxEnlance.style.opacity = 0;
     }
+}) 
 
-    
-}) */
+console.log(boxImguno.offsetTop)
